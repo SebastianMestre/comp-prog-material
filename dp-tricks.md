@@ -135,6 +135,10 @@ dp(n, len_7) {
 And this is O(N) and much simpler. Many many problems can be expressed in both ways, but often
 one of the two will be much easier to optimize, so this is a trick worth keeping in mind.
 
+This is technically not a DP trick, but a recursion trick. So the trick can also be used for backtracking
+problems. In particular, shows that a backtracking with the form of the first solution
+visits $O(2^{N})$ states in the worst case and not something like $O(N^{N})$ or $(N!)$.
+
 Another similar problem would be: count the number of ways to express a number `n` as a sum of numbers not
 equal to `5`. Follow up: What if only one number can be equal to `5`? What if only the first and last (or
 both) can be equal to `5`?
