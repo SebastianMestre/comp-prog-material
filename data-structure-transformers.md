@@ -1,0 +1,3 @@
+- Add rollback to array-based data structures using a stack of diffs
+- Add insertion to init-only data structures by maintaining $O(\log N)$ instancies of power-of-two sizes and merging binary-counter style (e.g. k-d tree with fast insertion https://tavianator.com/2014/kd_forests.html)
+- Add offline deletion to data structures with rollback capability
